@@ -2,7 +2,7 @@ class PizzasController < ApplicationController
   before_action :set_pizza, only: [:show, :edit, :update, :destroy]
 
 def home
-  #code
+  root "pizza#home"
 end
   # GET /pizzas
   # GET /pizzas.json
